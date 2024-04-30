@@ -2,10 +2,10 @@ import { NativeModules, Platform } from 'react-native';
 import type {
   SharedStorageStatic,
   SharedStorageStaticOptions,
-} from 'react-native-shared-storage';
+} from '@software-lab/react-native-shared-storage';
 
 const LINKING_ERROR =
-  `The package 'react-native-shared-storage' doesn't seem to be linked. Make sure: \n\n` +
+  `The package '@software-lab/react-native-shared-storage' doesn't seem to be linked. Make sure: \n\n` +
   Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';

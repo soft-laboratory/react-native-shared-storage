@@ -1,11 +1,11 @@
-# react-native-shared-storage
+# @software-lab/react-native-shared-storage
 
 Desc
 
 ## Installation
 
 ```sh
-npm install react-native-shared-storage
+npm install @software-lab/react-native-shared-storage
 ```
 
 ## Usage

@@ -1,4 +1,4 @@
-declare module 'react-native-shared-storage' {
+declare module '@software-lab/react-native-shared-storage' {
   export interface SharedStorageStatic {
     isAppInstalledAndroid: (packageName: string) => Promise<void>;
     getItemForGroup: (

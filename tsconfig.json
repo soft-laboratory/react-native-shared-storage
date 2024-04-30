@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-shared-storage": ["./src/index"]
+      "@software-lab/react-native-shared-storage": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
